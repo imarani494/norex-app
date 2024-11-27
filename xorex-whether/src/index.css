@@ -1,0 +1,88 @@
+/* Default (Light Mode) Styles */
+body.light {
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.container.light {
+  background-color: #ffffff;
+  color: #333;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1.light, h3.light, p.light {
+  color: #333;
+}
+
+button.light {
+  background-color: #f8f9fa;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+/* Dark Mode Styles */
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.container.dark {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1.dark, h3.dark, p.dark {
+  color: #e0e0e0;
+}
+
+button.dark {
+  background-color: #333;
+  color: #f8f9fa;
+  border: 1px solid #444;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  input[type="number"], select {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  input[type="number"], select {
+    font-size: 12px;
+  }
+}
